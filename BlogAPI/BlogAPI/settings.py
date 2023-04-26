@@ -21,6 +21,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'backend',
+    'questionandanswer',
 
     'django.contrib.admin',
     'django.contrib.auth',
