@@ -13,3 +13,8 @@ urlpatterns = [
     path('answer-update-delete/<int:pk>/', AnswerDeleteUpdate.as_view(), name='answer-update-delete'),
 
 ]
+
+
+
+
+
