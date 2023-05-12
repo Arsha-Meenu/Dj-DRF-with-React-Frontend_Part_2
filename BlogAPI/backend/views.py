@@ -34,7 +34,7 @@ from rest_framework import viewsets
 # % MODEL VIEWSETS APIVIEW SECTION   %
 class ArticleViewset(viewsets.ModelViewSet):
     permission_classes = [IsAuthenticated,IsAuthor, ]
-    authentication_classes = (TokenAuthentication, SessionAuthentication,)
+    # authentication_classes = (TokenAuthentication, SessionAuthentication,)
 
     queryset = Articles.objects.all()
     lookup_field = 'slug'
